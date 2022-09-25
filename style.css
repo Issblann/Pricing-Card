@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Poppins";
+}
+
+main {
+  height: 100vh;
+  background: radial-gradient(#eeaeca, #94bbe9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.container {
+  background-color: transparent;
+  padding: 30px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: 20px solid white;
+  border-radius: 30px;
+}
+
+.seccion {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 20px;
+}
+
+.seccion-titulo {
+  text-align: left;
+  width: 150px;
+}
+
+.seccion-valores {
+  width: 150px;
+  font-size: 50px;
+  text-align: left;
+}
+
+.seccion-valores span {
+  font-size: 30px;
+}
+
+.seccion-parrafos {
+  width: 150px;
+  font-size: 11px;
+  text-align: left;
+  font-weight: 600;
+}
+
+.seccion-parrafos-largos {
+  width: 150px;
+
+  font-size: 15px;
+  text-align: left;
+}
+
+a {
+  width: 150px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+  color: black;
+  font-weight: 600;
+}
+
+.boton1 {
+  background-color: rgba(255, 0, 67, 0.8);
+}
+
+.boton2 {
+  background-color: rgba(0, 213, 222, 1);
+}
+
+.boton3 {
+  background-color: black;
+  color: white;
+}
